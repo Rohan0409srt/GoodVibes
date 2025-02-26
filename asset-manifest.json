@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Good_vibes/static/css/main.f4086608.css",
-    "main.js": "/Good_vibes/static/js/main.fb307cd8.js",
+    "main.css": "/Good_vibes/static/css/main.2f53deb3.css",
+    "main.js": "/Good_vibes/static/js/main.3fe5e211.js",
     "static/media/f1.jpg": "/Good_vibes/static/media/f1.bec7797d5c3b108c8fce.jpg",
     "static/media/f2.jpg": "/Good_vibes/static/media/f2.d7af60d3a58ae90aa86d.jpg",
     "static/media/f4.jpg": "/Good_vibes/static/media/f4.60f35893f25b14ae5d2b.jpg",
@@ -26,11 +26,11 @@
     "static/media/slick.ttf": "/Good_vibes/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Good_vibes/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Good_vibes/index.html",
-    "main.f4086608.css.map": "/Good_vibes/static/css/main.f4086608.css.map",
-    "main.fb307cd8.js.map": "/Good_vibes/static/js/main.fb307cd8.js.map"
+    "main.2f53deb3.css.map": "/Good_vibes/static/css/main.2f53deb3.css.map",
+    "main.3fe5e211.js.map": "/Good_vibes/static/js/main.3fe5e211.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4086608.css",
-    "static/js/main.fb307cd8.js"
+    "static/css/main.2f53deb3.css",
+    "static/js/main.3fe5e211.js"
   ]
 }
