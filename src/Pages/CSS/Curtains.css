@@ -1,0 +1,102 @@
+/* General Page Styling */
+.curtains-page {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+/* Heading and Description */
+.curtains-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.curtains-page p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+/* Gallery Grid Layout */
+.curtains-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 1.5rem 0;
+}
+
+/* Curtain Card Styling */
+.curtain-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.curtain-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Image Styling */
+.curtain-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease, filter 0.4s ease;
+  gap: 20px;
+}
+
+/* Hover Effect */
+.curtain-card:hover img {
+  transform: scale(1.1);
+  filter: brightness(75%);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+  .curtains-page h1 {
+    font-size: 2.2rem;
+  }
+
+  .curtains-page p {
+    font-size: 1.1rem;
+  }
+
+  .curtains-gallery {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .curtains-gallery {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .curtains-page h1 {
+    font-size: 2rem;
+  }
+
+  .curtains-page p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .curtains-gallery {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+
+  .curtains-page h1 {
+    font-size: 1.8rem;
+  }
+
+  .curtains-page p {
+    font-size: 0.95rem;
+  }
+}

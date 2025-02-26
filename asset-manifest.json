@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Good_vibes/static/css/main.f4086608.css",
+    "main.js": "/Good_vibes/static/js/main.fb307cd8.js",
+    "static/media/f1.jpg": "/Good_vibes/static/media/f1.bec7797d5c3b108c8fce.jpg",
+    "static/media/f2.jpg": "/Good_vibes/static/media/f2.d7af60d3a58ae90aa86d.jpg",
+    "static/media/f4.jpg": "/Good_vibes/static/media/f4.60f35893f25b14ae5d2b.jpg",
+    "static/media/f3.jpg": "/Good_vibes/static/media/f3.9756429b0bdd207a37e0.jpg",
+    "static/media/logo.jpg": "/Good_vibes/static/media/logo.7cf47e1fbc833a7ba07f.jpg",
+    "static/media/Img7.jpg": "/Good_vibes/static/media/Img7.0ff1224692c38dce217a.jpg",
+    "static/media/Img2.jpg": "/Good_vibes/static/media/Img2.1905ad42884f6382804c.jpg",
+    "static/media/Img4.jpg": "/Good_vibes/static/media/Img4.35f91f9add597d3a7553.jpg",
+    "static/media/Img5.jpg": "/Good_vibes/static/media/Img5.7060100a0bbf3ebaa0dc.jpg",
+    "static/media/wallpapers.jpg": "/Good_vibes/static/media/wallpapers.6c46d0d6238f9a0a166d.jpg",
+    "static/media/Img6.jpg": "/Good_vibes/static/media/Img6.d31dc327e3911f06302d.jpg",
+    "static/media/Img3.jpg": "/Good_vibes/static/media/Img3.92528df8fd231e9a912c.jpg",
+    "static/media/Img1.jpg": "/Good_vibes/static/media/Img1.1eec44781c0d9248444a.jpg",
+    "static/media/blinds.jpg": "/Good_vibes/static/media/blinds.37021fbc30cd3461d28a.jpg",
+    "static/media/Sofa_repaire.jpg": "/Good_vibes/static/media/Sofa_repaire.96b1fb57f76bac1b965b.jpg",
+    "static/media/Img8.jpg": "/Good_vibes/static/media/Img8.db4679e40d4af385642f.jpg",
+    "static/media/bed_headboards.jpg": "/Good_vibes/static/media/bed_headboards.e9a208eff9c9ae5df8e9.jpg",
+    "static/media/Old Vs New sofa.jpg": "/Good_vibes/static/media/Old Vs New sofa.163d142b4e48481925a8.jpg",
+    "static/media/curttons.jpg": "/Good_vibes/static/media/curttons.92528df8fd231e9a912c.jpg",
+    "static/media/slick.svg": "/Good_vibes/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Good_vibes/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Good_vibes/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Good_vibes/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Good_vibes/index.html",
+    "main.f4086608.css.map": "/Good_vibes/static/css/main.f4086608.css.map",
+    "main.fb307cd8.js.map": "/Good_vibes/static/js/main.fb307cd8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4086608.css",
+    "static/js/main.fb307cd8.js"
+  ]
+}
