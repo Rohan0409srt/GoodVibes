@@ -52,7 +52,7 @@ const Footer = () => {
       </div>
 
       <div className="footer-bottom">
-        <p>© Copyright 2025 Good Vibes Sales & Service. All rights reserved.</p>
+        <p>© Copyright 2025 Good Vibes Sales & Service. All rights reserved..</p>
         <div className="footer-links">
           {/* <a href="/about">About Us</a>
           <a href="/blog">Blog</a>
