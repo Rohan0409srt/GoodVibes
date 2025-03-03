@@ -96,7 +96,7 @@ select {
   font-size: 24px;
   margin: 0;
   background: linear-gradient(90deg, #ff6600, #ff3300);
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   color: transparent;
 }
 
