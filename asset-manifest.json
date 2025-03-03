@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/GoodVibes/static/css/main.099a248d.css",
-    "main.js": "/GoodVibes/static/js/main.0cc7bec4.js",
+    "main.js": "/GoodVibes/static/js/main.bc308b19.js",
     "static/media/f1.jpg": "/GoodVibes/static/media/f1.bec7797d5c3b108c8fce.jpg",
     "static/media/f2.jpg": "/GoodVibes/static/media/f2.d7af60d3a58ae90aa86d.jpg",
     "static/media/f4.jpg": "/GoodVibes/static/media/f4.60f35893f25b14ae5d2b.jpg",
@@ -27,10 +27,10 @@
     "static/media/slick.woff": "/GoodVibes/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/GoodVibes/index.html",
     "main.099a248d.css.map": "/GoodVibes/static/css/main.099a248d.css.map",
-    "main.0cc7bec4.js.map": "/GoodVibes/static/js/main.0cc7bec4.js.map"
+    "main.bc308b19.js.map": "/GoodVibes/static/js/main.bc308b19.js.map"
   },
   "entrypoints": [
     "static/css/main.099a248d.css",
-    "static/js/main.0cc7bec4.js"
+    "static/js/main.bc308b19.js"
   ]
 }
