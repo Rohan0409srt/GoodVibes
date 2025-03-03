@@ -4,11 +4,75 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background: linear-gradient(90deg, #1b84ca, #555);
+  background: linear-gradient(90deg, #4592c6, #555);
   position: sticky;
   top: 0;
   z-index: 1000;
   transition: background-color 0.3s ease;
+}
+.quotation-btn {
+  background-color: #ff6600;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.popup-form {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 350px;
+  text-align: center;
+}
+
+.form-container h2 {
+  margin-bottom: 15px;
+}
+
+.form-container input,
+.form-container textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-container button {
+  background-color: #ff6600;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.close-btn {
+  background-color: red;
+  margin-top: 5px;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
 }
 
 
@@ -41,36 +105,54 @@
   display: flex;
   align-items: center;
 }
-
-.nav-menu ul {
+.navbar h3{
+  color: white;
+}
+.navbar {
+  background-color: #333; /* Change to your desired color */
+  color: white; /* Text color */
+  padding: 15px 20px;
   display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  gap: 1.8rem;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.nav-menu ul li {
-  margin: 0 15px;
-  position: relative;
+.nav-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
 }
 
 .nav-menu ul li a {
-  color: white;
   text-decoration: none;
-  font-size: 18px;
-  padding: 10px 0;
+  color: white; /* Change font color */
+  font-weight: bold;
+  font-size: 16px;
   transition: color 0.3s ease;
-  background: linear-gradient(90deg, #ff6600, #ff3300);
-  -webkit-background-clip: text;
-  color: transparent;
 }
 
 .nav-menu ul li a:hover {
-  background: linear-gradient(90deg, #ff3300, #ff6600);
-  -webkit-background-clip: text;
-  color: transparent;
+  color: #ffcc00; /* Change hover color */
 }
+
+.quotation-btn {
+  background-color: #ffcc00; /* Change button background */
+  color: black; /* Button text color */
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.quotation-btn:hover {
+  background-color: #ff9900; /* Hover effect */
+}
+
+.hamburger .bar {
+  background-color: white; /* Change hamburger menu color */
+}
+
 
 /* Animated Underline */
 .nav-menu ul li hr {
