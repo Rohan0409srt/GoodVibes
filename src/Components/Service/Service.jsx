@@ -18,7 +18,7 @@ const Service = () => {
     <div className="service-page">
       <div className="service-header">
         <h1>Our Services</h1>
-        <p>We provide top-notch solutions tailored to your business needs.</p>
+        <p>We Provide Top-Notch Solutions Tailored To Your Home Needs.</p>
       </div>
       <hr />
       <div className="service-list">
