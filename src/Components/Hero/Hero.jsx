@@ -3,10 +3,10 @@ import './Hero.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
-import banner1 from "../assets/f1.jpg";
-import banner2 from "../assets/f2.jpg";
-import banner3 from "../assets/f3.jpg";
-import banner4 from "../assets/f4.jpg";
+import banner1 from "../assets/service_imges/Bedheadboards/Img6.jpg";
+import banner2 from "../assets/service_imges/Blinds/Img2.jpg";
+import banner3 from "../assets/service_imges/Curtains/Img4.jpg";
+import banner4 from "../assets/service_imges/Wallpapers/Img1.jpg";
 
 function Hero() {
   const images = [banner1, banner2, banner3, banner4];

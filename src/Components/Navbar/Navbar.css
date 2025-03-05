@@ -10,6 +10,9 @@
   z-index: 1000;
   transition: background-color 0.3s ease;
 }
+.navbar h3{
+  background-color: none;
+}
 .quotation-btn {
   background-color: #ff6600;
   color: white;
@@ -95,7 +98,7 @@ select {
   color: white;
   font-size: 24px;
   margin: 0;
-  background: linear-gradient(90deg, #ff6600, #ff3300);
+  /* background: linear-gradient(90deg, #ff6600, #ff3300); */
   /* -webkit-background-clip: text; */
   color: transparent;
 }
