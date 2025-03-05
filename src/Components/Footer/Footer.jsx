@@ -43,7 +43,7 @@ const Footer = () => {
         <div className="footer-section">
           <h3>Our Services</h3>
           <ul>
-            <li><a href="./GoodVibes/curtains">Curtains</a></li>
+            <li><a href="../GoodVibes/curtains">Curtains</a></li>
             <li><a href="../GoodVibes/wallpaper">Wallpapers</a></li>
             <li><a href="../GoodVibes/BedHeadboards">Bed Beadboards</a></li>
             <li><a href="../GoodVibes/blinds">Blinds</a></li>
