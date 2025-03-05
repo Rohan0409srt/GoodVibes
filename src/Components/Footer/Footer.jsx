@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { FaFacebookF, FaYoutube, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import "./Footer.css";
 
@@ -33,32 +34,30 @@ const Footer = () => {
         <div className="footer-section">
           <h3>Information</h3>
           <ul>
-            <li><a href="./GoodVibes/about_Us">About Us</a></li>
-            <li><a href="./GoodVibes/service">Our Services</a></li>
-            <li><a href="./GoodVibes/Contact_Us">Contact Us</a></li>
-            <li><a href="https://maps.app.goo.gl/YyDjWwmtsFrM1U3Y9">Store Locator</a></li>
+            <li><Link to="About_us">About Us</Link></li>
+            <li><Link to="Service">Our Services</Link></li>
+            <li><Link to="Contact_us">Contact Us</Link></li>
+            <li>
+              <a href="https://maps.app.goo.gl/YyDjWwmtsFrM1U3Y9" target="_blank" rel="noopener noreferrer">
+                Store Locator
+              </a>
+            </li>
           </ul>
         </div>
 
         <div className="footer-section">
           <h3>Our Services</h3>
           <ul>
-            <li><a href="./GoodVibes/curtains">Curtains</a></li>
-            <li><a href="./GoodVibes/wallpaper">Wallpapers</a></li>
-            <li><a href="./GoodVibes/BedHeadboards">Bed Beadboards</a></li>
-            <li><a href="./GoodVibes/blinds">Blinds</a></li>
+            <li><Link to="Curtains">Curtains</Link></li>
+            <li><Link to="Wallpaper">Wallpapers</Link></li>
+            <li><Link to="BedHeadboards">Bed Headboards</Link></li>
+            <li><Link to="Blinds">Blinds</Link></li>
           </ul>
         </div>
       </div>
 
       <div className="footer-bottom">
         <p>© Copyright 2025 Good Vibes Sales & Service. All rights reserved.</p>
-        <div className="footer-links">
-          {/* <a href="/about">About Us</a>
-          <a href="/blog">Blog</a>
-          <a href="/contact">Contact Us</a>
-          <a href="/store-locator">Store Locator</a> */}
-        </div>
       </div>
     </footer>
   );
