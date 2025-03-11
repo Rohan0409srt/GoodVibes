@@ -1,6 +1,7 @@
 import React from "react";
 import { FaFacebookF, FaYoutube, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -33,20 +34,20 @@ const Footer = () => {
         <div className="footer-section">
           <h3>Information</h3>
           <ul>
-            <li><a href="./GoodVibes/about_Us">About Us</a></li>
-            <li><a href="./GoodVibes/service">Our Services</a></li>
-            <li><a href="./GoodVibes/Contact_Us">Contact Us</a></li>
-            <li><a href="https://maps.app.goo.gl/YyDjWwmtsFrM1U3Y9">Store Locator</a></li>
+          <li><Link to="/about_Us">About Us</Link></li>
+          <li><Link to="/service">Our Services</Link></li>
+          <li><Link to="/Contact_Us">Contact Us</Link></li>
+          <li><a href="https://maps.app.goo.gl/YyDjWwmtsFrM1U3Y9">Store Locator</a></li>
           </ul>
         </div>
-
+        
         <div className="footer-section">
           <h3>Our Services</h3>
           <ul>
-            <li><a href="./GoodVibes/curtains">Curtains</a></li>
-            <li><a href="./GoodVibes/wallpaper">Wallpapers</a></li>
-            <li><a href="./GoodVibes/BedHeadboards">Bed Beadboards</a></li>
-            <li><a href="./GoodVibes/blinds">Blinds</a></li>
+          <li><Link to="/curtains">Curtains</Link></li>
+          <li><Link to="/wallpaper">Wallpapers</Link></li>
+          <li><Link to="/BedHeadboards">Bed Headboards</Link></li>
+          <li><Link to="/blinds">Blinds</Link></li>
           </ul>
         </div>
       </div>
