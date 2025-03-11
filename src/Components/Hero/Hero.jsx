@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';  // ✅ Import useNavigate
 import './Hero.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -9,6 +10,8 @@ import banner3 from "../assets/f3.jpg";
 import banner4 from "../assets/f4.jpg";
 
 function Hero() {
+  const navigate = useNavigate(); // ✅ Initialize navigate function
+
   const images = [banner1, banner2, banner3, banner4];
 
   const settings = {
@@ -37,7 +40,7 @@ function Hero() {
           ))}
         </Slider>
         <div className="hero-button">
-          <button>Discover More</button>
+          <button onClick={() => navigate('/Service')}>Discover More</button>  {/* ✅ Navigate to Service page */}
         </div>
       </div>
     </div>
